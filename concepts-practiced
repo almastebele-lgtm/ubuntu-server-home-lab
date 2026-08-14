@@ -1,0 +1,54 @@
+Linux Server Administration:
+
+Installed and configured Ubuntu Server in a virtual machine.
+Created and managed Linux user accounts.
+Practiced basic filesystem ownership and permissions.
+Used systemctl to check whether services were running.
+Used basic Linux commands to inspect the system.
+Networking
+Configured and checked the server's network connection.
+Identified the server's IP address.
+Tested Internet connectivity.
+Connected to the server remotely from macOS using SSH.
+Learned how DHCP provides an IP address to a machine.
+Web Server
+
+Installed and configured Nginx as a basic web server.
+I verified that the Nginx service was running and accessed the server from a web browser over HTTP.
+
+This helped me understand a simple client-server setup:
+Web Browser │ │ HTTP ▼ Ubuntu Server │ ▼ Nginx
+
+
+
+Basic Security:
+
+Configured Ubuntu's UFW firewall and allowed only the services required for the lab, including SSH and HTTP.
+I also practiced using separate user accounts and filesystem permissions rather than giving every user unrestricted access.
+
+Monitoring & Troubleshooting:
+
+Practiced basic Linux monitoring using tools for:
+
+Memory usage
+Disk usage
+Running processes
+System load
+Service status
+
+I also used Ubuntu's system logs to investigate warnings and Nginx service activity. An important part of the project was learning that system warnings do not automatically mean that a service is broken. I had to look at the context and verify whether the actual service was functioning.
+
+
+What I Learned:
+
+This project helped me move from mostly theoretical knowledge toward practical IT infrastructure work.
+
+In particular, I gained a better understanding of:
+
+How a Linux server operates inside a virtual machine
+How SSH enables remote administration
+How IP addresses and basic networking work in a server environment
+How a web server such as Nginx provides services to clients
+Why firewalls and network ports matter
+How Linux users and file permissions control access
+How system monitoring and logs can help with troubleshooting
